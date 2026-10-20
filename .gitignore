@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+resultados/figuras/*.png
+resultados/tablas/*.csv
+resultados/tablas/*.json
+!resultados/figuras/.gitkeep
+!resultados/tablas/.gitkeep
