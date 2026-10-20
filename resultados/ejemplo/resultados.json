@@ -1,0 +1,94 @@
+{
+  "Convencional": {
+    "coeficientes_reales_rad": [
+      0.28,
+      0.4,
+      -0.2,
+      0.24,
+      -0.18,
+      0.14
+    ],
+    "coeficientes_estimados_rad": [
+      0.23294594041110628,
+      0.39567468237921866,
+      -0.2014891744826198,
+      0.24121706624119052,
+      -0.10168683838410804,
+      0.11174520714192607
+    ],
+    "RMSE_coeficientes_rad": 0.03908916386272206,
+    "optimizador_convergio": false,
+    "mensaje_optimizador": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "iteraciones": 2,
+    "costos_inicializaciones": [
+      1.6246672229156514
+    ],
+    "adquisicion_0": {
+      "PSNR_dB": 22.85744361970221,
+      "SSIM": 0.7668302947423463,
+      "RMSE_imagen": 0.07196607531867787
+    },
+    "restauracion": {
+      "PSNR_dB": 27.07982655819326,
+      "SSIM": 0.8722297841251665,
+      "RMSE_imagen": 0.04425972101554791
+    },
+    "diversidades": "[0, 1.30 Z4]"
+  },
+  "Extendido": {
+    "coeficientes_reales_rad": [
+      0.28,
+      0.4,
+      -0.2,
+      0.24,
+      -0.18,
+      0.14
+    ],
+    "coeficientes_estimados_rad": [
+      0.22449189841912714,
+      0.2875284147047666,
+      0.13963425972353066,
+      0.2365315915521197,
+      -0.12771818496590573,
+      0.16996139584680986
+    ],
+    "RMSE_coeficientes_rad": 0.14984744492282587,
+    "optimizador_convergio": false,
+    "mensaje_optimizador": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "iteraciones": 2,
+    "costos_inicializaciones": [
+      1.8278217701914858
+    ],
+    "adquisicion_0": {
+      "PSNR_dB": 22.85744361970221,
+      "SSIM": 0.7668302947423463,
+      "RMSE_imagen": 0.07196607531867787
+    },
+    "restauracion": {
+      "PSNR_dB": 26.521229154632053,
+      "SSIM": 0.8621507765208806,
+      "RMSE_imagen": 0.0471996243567022
+    },
+    "diversidades": "[0, 1.30 Z4 + 0.85 Z5]"
+  },
+  "configuracion": {
+    "n": 64,
+    "semilla": 2026,
+    "sigma": 0.008,
+    "modos_ANSI_OSA": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      12
+    ],
+    "diversidad_Z4_rad": 1.3,
+    "diversidad_extra_Z5_rad": 0.85,
+    "lambda_ajuste": 0.0003,
+    "lambda_restauracion": 0.04,
+    "modelo_bordes": "convolución circular",
+    "K": 2,
+    "imagen": "skimage.data.camera()"
+  }
+}
