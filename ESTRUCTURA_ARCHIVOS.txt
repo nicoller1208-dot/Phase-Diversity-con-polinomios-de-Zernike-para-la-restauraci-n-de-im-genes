@@ -1,0 +1,20 @@
+Proyecto_Fourier_final_referencias/
+├── LEEME_FINAL.txt
+├── Resultados_Fourier_FINAL.xlsx
+├── codigo_final/
+│   ├── main.py
+│   ├── README.md
+│   ├── requirements.txt
+│   └── fourier_pd_final/
+│       ├── config.py
+│       ├── optics_final/
+│       ├── simulation_final/
+│       ├── algorithms_final/
+│       ├── analysis_final/
+│       ├── validation_final/
+│       ├── visualization_final/
+│       └── utils_final/
+└── resultados_final/
+    ├── CSV y JSON de resultados
+    ├── casos_aberracion_final/
+    └── imagenes_final/

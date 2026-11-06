@@ -1,0 +1,24 @@
+PROYECTO FOURIER - VERSION FINAL SIN COMENTARIOS
+
+Estructura principal:
+- codigo_final/: codigo ejecutable.
+- codigo_final/fourier_pd_final/: paquete principal.
+- algorithms_final/: algoritmo Phase Diversity.
+- analysis_final/: experimentos, casos manuales y aberraciones aleatorias.
+- optics_final/: Zernike y modelo optico.
+- simulation_final/: generacion de datos sinteticos.
+- utils_final/: utilidades de entrada/salida.
+- validation_final/: validaciones numericas.
+- visualization_final/: generacion de figuras.
+- resultados_final/: resultados, tablas y figuras finales.
+- resultados_final/imagenes_final/: imagenes generadas.
+
+Los archivos Python no contienen comentarios ni docstrings explicativos.
+Todos los imports fueron actualizados a los nombres de carpetas con sufijo _final.
+
+Ejecucion:
+cd codigo_final
+pip install -r requirements.txt
+python main.py
+
+La ejecucion nueva crea la carpeta salida_fourier_final/.
